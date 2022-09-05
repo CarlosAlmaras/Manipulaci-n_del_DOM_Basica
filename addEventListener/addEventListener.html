@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM Básica - Curso Practico de JS</title>
+</head>
+<body>
+    <h1 class="rojo">Manipulación del DOM Básica</h1>
+
+
+    <form id="form"><!--Podemos agregarle una ruta a la que queremos hacer una solicitud apenas le demos click al submit o botton y le envia los valores de nuestros inputs-->
+        <input id="calculo1" placeholder="Escribe algo aqui" type="text">
+        <input id="calculo2" placeholder="Escribe algo aqui" type="text">
+
+        <button id="btnCalcular">Calcular</button> 
+        <!--Por defecto, el formulario agarra el ultimo boton que se encuentre adentro y lo interpreta como
+        un botón de tipo submit, es decir un boton que sirve para enviar el formulario.
+        La accion por defecto que hace el formulario para enviarse es cambiando la url(por defecto agrega un ? a la url),
+        esto hace que se recargue la página. -->
+
+        <p id="result"></p>
+    </form>
+
+
+    <script src="./addEventListener.js"></script>
+
+
+</body>
+</html>
